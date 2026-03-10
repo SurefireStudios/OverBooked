@@ -4,7 +4,7 @@
 Plugin Name: OverBooked
 Plugin URI: https://github.com/SurefireStudios/OverBooked
 Description: Powerful appointment booking made simple. Lightweight WordPress appointment booking plugin designed for modern sites. Built with PHP 8+ and the latest WordPress standards, it makes scheduling effortless for both site owners and clients.
-Version: 2.5.0
+Version: 2.5.1
 Author: Surefire Studios
 Author URI: https://www.surefirestudios.io
 License: GPL v2 or later
@@ -12,7 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: overbooked
 */
 
-define( 'BOOKED_VERSION', '2.5.0' );
+define( 'BOOKED_VERSION', '2.5.1' );
 define( 'BOOKED_WELCOME_SCREEN', get_option('booked_welcome_screen',true) );
 define( 'BOOKED_DEMO_MODE', get_option('booked_demo_mode',false) );
 define( 'BOOKED_PLUGIN_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
@@ -47,6 +47,9 @@ if ( !booked_is_rest_api_request() ) {
 
 if(!class_exists('booked_plugin')) {
 	class booked_plugin {
+		
+		public $booked_screens;
+
 		/**
 		 * Construct the plugin object
 		 */
