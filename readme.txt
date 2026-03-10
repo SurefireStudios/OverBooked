@@ -4,7 +4,7 @@ Tags: appointment, booking, calendar, scheduling, business, appointments, bookin
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 8.3
-Stable tag: 2.5.0
+Stable tag: 2.5.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Powerful appointment booking made simple. Lightweight WordPress appointment book
 
 **OverBooked** is a modern WordPress appointment booking plugin that has been completely updated for PHP 8.3 and WordPress 6.8.2 compatibility. This version features enhanced security, improved performance, and a streamlined codebase that makes scheduling effortless for both site owners and clients.
 
-### 🚀 **What's New in Version 2.5.0**
+### 🚀 **What's New in Version 2.5.1**
 
 **✨ Complete Modernization**
 * **PHP 8.3 Compatible** - Fully updated for PHP 8.3 with improved session handling
@@ -94,7 +94,7 @@ Powerful appointment booking made simple. Lightweight WordPress appointment book
 == Frequently Asked Questions ==
 
 = Is this plugin secure and updated? =
-Yes! Version 2.5.0 includes a complete security audit with proper input sanitization, nonce verification, and session management. The plugin is fully updated for PHP 8.3 and WordPress 6.8.2.
+Yes! Version 2.5.1 includes a complete security audit with proper input sanitization, nonce verification, and session management. The plugin is fully updated for PHP 8.3 and WordPress 6.8.2.
 
 = Does it work with PHP 8.3? =
 Absolutely! This version has been specifically updated and tested for PHP 8.3 compatibility with improved session handling and modern PHP practices.
@@ -124,6 +124,9 @@ Yes! Automated email notifications are sent for new bookings, approvals, cancell
 Yes! The plugin is designed to work with any properly coded WordPress theme and follows WordPress standards.
 
 == Changelog ==
+
+= 2.5.1 =
+* ✅ **PHP 8.2 Fix** - Fixed deprecation notice for dynamic properties in the main plugin class file
 
 = 2.5.0 =
 * ✅ **MAJOR UPDATE** - Complete modernization for PHP 8.3 and WordPress 6.8.2
