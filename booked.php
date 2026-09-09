@@ -10,6 +10,9 @@ Author URI: https://www.surefirestudios.io
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: overbooked
+Domain Path: /languages
+Requires at least: 5.0
+Requires PHP: 8.3
 */
 
 define( 'BOOKED_VERSION', '2.5.1' );

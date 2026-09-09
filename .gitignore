@@ -1,0 +1,28 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Logs
+*.log
+error_log
+
+# Build / dependency directories are intentionally committed so a clone is
+# installable without a build step:
+#   vendor/ (composer install)
+#   dist/   (built CSS/JS)
+# Uncomment these if you switch to a build-on-release workflow instead.
+# vendor/
+# dist/
+
+# Local env
+.env
+.env.*
