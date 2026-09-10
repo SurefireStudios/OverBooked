@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.3",
-        "fortawesome/wordpress-fontawesome": "^4.3"
+        "fortawesome/wordpress-fontawesome": "^5.2"
     },
     "autoload": {
         "psr-4": {
