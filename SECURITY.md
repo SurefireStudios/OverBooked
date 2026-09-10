@@ -7,8 +7,8 @@ public REST endpoint. Security reports are taken seriously.
 
 | Version | Status |
 | --- | --- |
-| `2.5.1` | ✅ Supported |
-| `< 2.5.1` | ❌ Superseded — upgrade to `2.5.1` |
+| `2.5.2` | ✅ Supported |
+| `< 2.5.2` | ❌ Superseded — upgrade to `2.5.2` |
 
 Fixes land on the latest release.
 
@@ -66,8 +66,5 @@ Areas we are particularly interested in:
 
 - The plugin inherits the `booked_` prefix and `booked.php` main file from its upstream origin
   ("Booked"). The public text domain is `overbooked`.
-- `includes/functions.php` currently makes an outbound request to a third-party support API
-  (`api.ticksy.com`) to fetch help-article text on the admin welcome screen. It is a read of
-  public help content, but it is an external call worth being aware of.
 - Version 2.5.0 added input sanitisation, nonce verification, safer session handling, and
   `wp_safe_redirect()` across the plugin.

@@ -53,20 +53,6 @@ function booked_get_users(){
 	return $users_array;
 }
 
-function booked_get_kb_article( $id ) {
-
-	$kb_article = get_transient( 'booked_kb_article_' . $id );
-
-	if (empty($kb_article)):
-		$kb_article = json_decode(file_get_contents('https://api.ticksy.com/v1/boxystudio/1f45cd6a663dd7d0ea726c93430a0c32/article.json/' . $id), true);
-		set_transient( 'booked_kb_article_' . $id, $kb_article, 86400 );
-	endif;
-
-	$output = '<a href="https://boxystudio.ticksy.com/article/' . $id . '/" target="_blank" class="welcome-icon welcome-learn-more">' . esc_html( $kb_article['article-data']['article_title'] ) . '&nbsp;&nbsp;
-	</a>';
-	return $output;
-
-}
 
 function booked_appointments_available( $year = false, $month = false, $day = false, $calendar_id = false, $return_array = false, $include_past = false ){
 

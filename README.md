@@ -8,7 +8,7 @@
 
 [![License: GPL v2+](https://img.shields.io/badge/license-GPL--2.0--or--later-blue)](LICENSE)
 [![PHP Lint](https://github.com/SurefireStudios/OverBooked/actions/workflows/php-lint.yml/badge.svg)](https://github.com/SurefireStudios/OverBooked/actions/workflows/php-lint.yml)
-[![Version 2.5.1](https://img.shields.io/badge/version-2.5.1-0d9488)](booked.php)
+[![Version 2.5.2](https://img.shields.io/badge/version-2.5.2-0d9488)](booked.php)
 [![WordPress 5.0+](https://img.shields.io/badge/WordPress-5.0%2B-21759b?logo=wordpress&logoColor=white)](https://wordpress.org)
 [![PHP 8.3+](https://img.shields.io/badge/PHP-8.3%2B-777bb4?logo=php&logoColor=white)](https://www.php.net)
 [![Stars](https://img.shields.io/github/stars/SurefireStudios/OverBooked?style=flat)](https://github.com/SurefireStudios/OverBooked/stargazers)
@@ -161,6 +161,7 @@ OverBooked/
 
 Full history is in [`readme.txt`](readme.txt). In brief:
 
+- **2.5.2** — Removed leftover upstream dead code that called a third-party support API (Ticksy) with a hard-coded key on the admin welcome screen
 - **2.5.1** — Fixed a PHP 8.2 dynamic-property deprecation in the main plugin class
 - **2.5.0** — Modernisation for PHP 8.3 and current WordPress: security pass (input sanitisation, nonce verification, safer session handling, `wp_safe_redirect`), REST endpoints for calendar/availability data, and query-limit tuning to prevent REST timeouts
 

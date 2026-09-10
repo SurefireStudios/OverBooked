@@ -6,10 +6,6 @@ Found a **security vulnerability**? Do not open a public issue — follow [SECUR
 
 ## Good first contributions
 
-- **Remove the leftover upstream support calls.** `includes/functions.php` still fetches
-  knowledge-base articles from the original vendor's Ticksy API (`api.ticksy.com/v1/boxystudio/…`)
-  with a hard-coded key, and links to `boxystudio.ticksy.com`. These should point at Surefire
-  Studios' own support, or be removed.
 - **Testing reports** against current WordPress releases — `readme.txt` says *Tested up to 6.8*.
 - **Automated tests.** There are none yet; the REST endpoints and the availability logic are
   the obvious first targets.

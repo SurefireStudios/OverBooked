@@ -4,7 +4,7 @@ Tags: appointment, booking, calendar, scheduling, business, appointments, bookin
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 8.3
-Stable tag: 2.5.1
+Stable tag: 2.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,9 @@ Yes! Automated email notifications are sent for new bookings, approvals, cancell
 Yes! The plugin is designed to work with any properly coded WordPress theme and follows WordPress standards.
 
 == Changelog ==
+
+= 2.5.2 =
+* ✅ **Cleanup** - Removed leftover upstream code that called a third-party support API (Ticksy) with a hard-coded key on the admin welcome screen. The function was unused dead code inherited from the original plugin; removing it drops an external network call and the bundled key.
 
 = 2.5.1 =
 * ✅ **PHP 8.2 Fix** - Fixed deprecation notice for dynamic properties in the main plugin class file
