@@ -309,14 +309,14 @@ msgstr ""
 
 #: lib/core.php:30
 msgid ""
-"\"Booked Payments with WooCommerce\" plugin by Boxy Studio is currently "
+"\"Booked Payments with WooCommerce\" plugin by Surefire Studios is currently "
 "inactive due to a missing dependency."
 msgstr ""
 
 #: lib/core.php:37
 msgid ""
-"\"Booked\" plugin by <a href=\"https://boxystudio.com/\" target=\"_blank"
-"\">Boxy Studio</a> is missing or not active."
+"\"Booked\" plugin by <a href=\"https://www.surefirestudios.io/\" target=\"_blank"
+"\">Surefire Studios</a> is missing or not active."
 msgstr ""
 
 #: lib/core.php:44
@@ -376,9 +376,9 @@ msgid "Adds the ability to accept payments for appointments using WooCommerce."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Boxy Studio"
+msgid "Surefire Studios"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://boxystudio.com"
+msgid "https://www.surefirestudios.io"
 msgstr ""

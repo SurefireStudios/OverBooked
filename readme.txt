@@ -127,6 +127,7 @@ Yes! The plugin is designed to work with any properly coded WordPress theme and 
 
 = 2.5.2 =
 * ✅ **Cleanup** - Removed leftover upstream code that called a third-party support API (Ticksy) with a hard-coded key on the admin welcome screen. The function was unused dead code inherited from the original plugin; removing it drops an external network call and the bundled key.
+* ✅ **Cleanup** - Scrubbed remaining upstream vendor branding (name, email, URLs) from bundled translation files (.po/.pot/.mo). These were inert (unloaded, orphaned strings); existing translations were preserved unchanged.
 
 = 2.5.1 =
 * ✅ **PHP 8.2 Fix** - Fixed deprecation notice for dynamic properties in the main plugin class file

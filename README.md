@@ -161,7 +161,7 @@ OverBooked/
 
 Full history is in [`readme.txt`](readme.txt). In brief:
 
-- **2.5.2** — Removed leftover upstream dead code that called a third-party support API (Ticksy) with a hard-coded key on the admin welcome screen
+- **2.5.2** — Removed leftover upstream dead code that called a third-party support API (Ticksy) with a hard-coded key, and scrubbed residual upstream vendor branding from bundled translation files
 - **2.5.1** — Fixed a PHP 8.2 dynamic-property deprecation in the main plugin class
 - **2.5.0** — Modernisation for PHP 8.3 and current WordPress: security pass (input sanitisation, nonce verification, safer session handling, `wp_safe_redirect`), REST endpoints for calendar/availability data, and query-limit tuning to prevent REST timeouts
 

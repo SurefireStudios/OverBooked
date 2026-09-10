@@ -176,9 +176,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Boxy Studio"
+msgid "Surefire Studios"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.boxystudio.com"
+msgid "https://www.surefirestudios.io"
 msgstr ""

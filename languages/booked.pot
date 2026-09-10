@@ -3201,9 +3201,9 @@ msgid "Powerful appointment booking made simple."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Boxy Studio"
+msgid "Surefire Studios"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://boxystudio.com"
+msgid "https://www.surefirestudios.io"
 msgstr ""
